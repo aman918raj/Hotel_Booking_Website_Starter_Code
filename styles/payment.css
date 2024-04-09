@@ -1,0 +1,9 @@
+.social_media_links {
+    display: inline-flex;
+    flex-wrap: row;
+  }
+  
+.social_img {
+flex: 25%;
+padding: 2px;
+}

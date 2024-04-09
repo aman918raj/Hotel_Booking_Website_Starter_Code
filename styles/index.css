@@ -1,0 +1,32 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* .img_col {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+} */
+
+.clearfix {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.img_col {
+flex: 25%;
+padding: 2px;
+}
+
+.social_media_links {
+  display: inline-flex;
+  flex-wrap: row;
+}
+
+.social_img {
+flex: 25%;
+padding: 2px;
+}
